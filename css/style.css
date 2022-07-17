@@ -1,0 +1,49 @@
+body, html {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+#clock, #greeting {
+  font-family: 'Quantico', sans-serif;
+  font-size: 40px;
+}
+
+#todo-form input {
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid #ffffff;
+  font-size: 28px;
+}
+#todo-form input:focus {
+  color: #ffffff;
+}
+#todo-form input:focus::placeholder {
+  color: transparent;
+}
+#todo-list {
+  list-style: none;
+}
+#todo-list li {
+  font-size: 20px;
+  padding: 5px;
+}
+#todo-list button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#quote {
+  font-size: 16px;
+  padding: 10px;
+}
+
+#weather {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+}
